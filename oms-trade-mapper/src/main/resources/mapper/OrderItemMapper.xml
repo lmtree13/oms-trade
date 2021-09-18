@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baize.oms.mapper.OrderItemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.baize.oms.domain.OrderItemEntity">
+        <id column="item_no" property="itemNo" />
+        <result column="order_no" property="orderNo" />
+        <result column="deli_no" property="deliNo" />
+        <result column="actual_warehouse" property="actualWarehouse" />
+        <result column="virtual_warehouse" property="virtualWarehouse" />
+        <result column="item_status" property="itemStatus" />
+        <result column="title" property="title" />
+        <result column="item_id" property="itemId" />
+        <result column="sku_id" property="skuId" />
+        <result column="bar_code" property="barCode" />
+        <result column="item_type" property="itemType" />
+        <result column="num" property="num" />
+        <result column="seller_prc" property="sellerPrc" />
+        <result column="tran_prc" property="tranPrc" />
+        <result column="settle_prc" property="settlePrc" />
+        <result column="discount" property="discount" />
+        <result column="coupon_prc" property="couponPrc" />
+        <result column="points_prc" property="pointsPrc" />
+        <result column="points_num" property="pointsNum" />
+        <result column="item_info" property="itemInfo" />
+        <result column="main_sku_id" property="mainSkuId" />
+        <result column="exchange_sku_id" property="exchangeSkuId" />
+        <result column="brand_code" property="brandCode" />
+        <result column="assistant_id" property="assistantId" />
+        <result column="is_pre_sale" property="isPreSale" />
+        <result column="is_protect" property="isProtect" />
+        <result column="refund_type" property="refundType" />
+        <result column="refund_status" property="refundStatus" />
+        <result column="refund_no" property="refundNo" />
+        <result column="refund_num" property="refundNum" />
+        <result column="biz_code" property="bizCode" />
+        <result column="express_state" property="expressState" />
+        <result column="express_no" property="expressNo" />
+        <result column="oid" property="oid" />
+        <result column="occ_num" property="occNum" />
+        <result column="estimated_time" property="estimatedTime" />
+        <result column="goods_extra" property="goodsExtra" />
+    </resultMap>
+
+</mapper>

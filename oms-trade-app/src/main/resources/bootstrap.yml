@@ -1,0 +1,42 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: oms-trade
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+#        server-addr: http://nacos.di.com
+        server-addr: http://127.0.0.1:8848
+      config:
+#        server-addr: http://nacos.di.com
+        server-addr: http://127.0.0.1:8848
+        file-extension: yaml
+        prefix: ${spring.application.name}
+
+---
+spring:
+  profiles: fat
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://nacos.fi.com
+      config:
+        server-addr: http://nacos.fi.com
+        file-extension: yaml
+        prefix: ${spring.application.name}
+
+---
+spring:
+  profiles: pro
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://mse-37693990-nacos-ans.mse.aliyuncs.com:8848
+      config:
+        server-addr: http://mse-37693990-nacos-ans.mse.aliyuncs.com:8848
+        file-extension: yaml
+        prefix: ${spring.application.name}

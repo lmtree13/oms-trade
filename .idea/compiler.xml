@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oms-trade-app" />
+        <module name="oms-trade-mapper" />
+        <module name="oms-trade-domain" />
+        <module name="oms-trade-dto" />
+        <module name="oms-trade-rest" />
+        <module name="oms-trade-generator" />
+        <module name="oms-trade-feign" />
+        <module name="oms-trade-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

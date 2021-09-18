@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/oms-trade-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-dto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-dto/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-rest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oms-trade-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

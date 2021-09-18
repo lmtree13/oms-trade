@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baize.oms.mapper.OrderTradeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.baize.oms.domain.OrderTradeEntity">
+        <id column="order_no" property="orderNo" />
+        <result column="outer_order_no" property="outerOrderNo" />
+        <result column="trade_status" property="tradeStatus" />
+        <result column="trade_status_str" property="tradeStatusStr" />
+        <result column="biz_mode" property="bizMode" />
+        <result column="presale_mode" property="presaleMode" />
+        <result column="trans_type" property="transType" />
+        <result column="order_type" property="orderType" />
+        <result column="user_id" property="userId" />
+        <result column="channel_code" property="channelCode" />
+        <result column="channel_name" property="channelName" />
+        <result column="shop_code" property="shopCode" />
+        <result column="shop_name" property="shopName" />
+        <result column="store_code" property="storeCode" />
+        <result column="store_name" property="storeName" />
+        <result column="exchange_original_no" property="exchangeOriginalNo" />
+        <result column="exchange_refund_no" property="exchangeRefundNo" />
+        <result column="original_order_no" property="originalOrderNo" />
+        <result column="online_offline" property="onlineOffline" />
+        <result column="item_fee" property="itemFee" />
+        <result column="discount" property="discount" />
+        <result column="freight" property="freight" />
+        <result column="total_fee" property="totalFee" />
+        <result column="paid_fee" property="paidFee" />
+        <result column="deduction_fee" property="deductionFee" />
+        <result column="use_points_fee" property="usePointsFee" />
+        <result column="use_points_num" property="usePointsNum" />
+        <result column="coupon_id" property="couponId" />
+        <result column="coupon_fee" property="couponFee" />
+        <result column="payable_fee" property="payableFee" />
+        <result column="num" property="num" />
+        <result column="lack_type" property="lackType" />
+        <result column="promotions" property="promotions" />
+        <result column="buyer_message" property="buyerMessage" />
+        <result column="seller_message" property="sellerMessage" />
+        <result column="flag" property="flag" />
+        <result column="close_code" property="closeCode" />
+        <result column="close_reason" property="closeReason" />
+        <result column="order_category" property="orderCategory" />
+        <result column="pree_occupy" property="preeOccupy" />
+        <result column="consignee" property="consignee" />
+        <result column="country" property="country" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="district" property="district" />
+        <result column="address" property="address" />
+        <result column="zipcode" property="zipcode" />
+        <result column="tel" property="tel" />
+        <result column="mobile" property="mobile" />
+        <result column="email" property="email" />
+        <result column="best_time" property="bestTime" />
+        <result column="priority_express_code" property="priorityExpressCode" />
+        <result column="priority_express_name" property="priorityExpressName" />
+        <result column="express_type" property="expressType" />
+        <result column="pay_type" property="payType" />
+        <result column="is_cac" property="isCac" />
+        <result column="assistant_id" property="assistantId" />
+        <result column="order_finished" property="orderFinished" />
+        <result column="invoice_info" property="invoiceInfo" />
+        <result column="invoice_status" property="invoiceStatus" />
+        <result column="refund_state" property="refundState" />
+        <result column="order_extra" property="orderExtra" />
+        <result column="order_time" property="orderTime" />
+        <result column="pay_time" property="payTime" />
+        <result column="audit_time" property="auditTime" />
+        <result column="consign_time" property="consignTime" />
+        <result column="received_time" property="receivedTime" />
+        <result column="finish_time" property="finishTime" />
+        <result column="expired_time" property="expiredTime" />
+        <result column="created_date" property="createdDate" />
+        <result column="created_user" property="createdUser" />
+        <result column="modified_date" property="modifiedDate" />
+        <result column="modified_user" property="modifiedUser" />
+    </resultMap>
+
+</mapper>

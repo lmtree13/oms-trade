@@ -1,0 +1,9 @@
+# Project exclude paths
+/oms-trade-app/target/
+/oms-trade-domain/target/
+/oms-trade-dto/target/
+/oms-trade-feign/target/
+/oms-trade-generator/target/
+/oms-trade-mapper/target/
+/oms-trade-rest/target/
+/oms-trade-service/target/

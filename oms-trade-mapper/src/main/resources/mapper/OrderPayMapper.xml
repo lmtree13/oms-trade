@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baize.oms.mapper.OrderPayMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.baize.oms.domain.OrderPayEntity">
+        <id column="pay_no" property="payNo" />
+        <result column="order_no" property="orderNo" />
+        <result column="merge_pay_sn" property="mergePaySn" />
+        <result column="pay_status" property="payStatus" />
+        <result column="pay_status_desc" property="payStatusDesc" />
+        <result column="pay_code" property="payCode" />
+        <result column="pay_name" property="payName" />
+        <result column="pay_totalfee" property="payTotalfee" />
+        <result column="payment_account" property="paymentAccount" />
+        <result column="receiving_account" property="receivingAccount" />
+        <result column="memo" property="memo" />
+        <result column="transaction" property="transaction" />
+        <result column="pay_begin_time" property="payBeginTime" />
+        <result column="pay_end_time" property="payEndTime" />
+        <result column="pay_last_time" property="payLastTime" />
+        <result column="created_date" property="createdDate" />
+        <result column="created_user" property="createdUser" />
+        <result column="modified_date" property="modifiedDate" />
+        <result column="modified_user" property="modifiedUser" />
+    </resultMap>
+
+</mapper>
